@@ -1,0 +1,580 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth
+}
+
+/*Start of Navigation bar*/
+
+.navbar
+{
+    padding:8px 0;
+    background: rgb(0,0,0,0.7);
+    margin-bottom:0;
+}
+
+.navbar-brand
+{
+    margin-left:15%;
+    margin-right:10%;
+}
+
+.navbar-nav .nav-item
+{
+    margin:0 2px;
+    font-size:20px;
+    font-weight: bold;
+    padding:5px 0;
+}
+
+.navbar-nav .nav-item .nav-link
+{
+    color:white;
+    font-weight:500;
+    padding:0 8px;
+   
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+    color:#cfbbac;
+    transition:0.6s;
+    
+}
+.navbar-toggler-icon
+{
+    color:white;
+    padding:5px;
+}
+/*End of Navigation bar*/
+
+
+/*Start of Carousel*/
+
+.Carousel
+{
+    background:url(../Images/background.jpg) center ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.Carousel h3
+{
+  padding-top:25%;
+  color:white;
+}
+.Carousel h1
+{
+  color:white;
+  font-size:60px;
+}
+.Carousel p
+{
+  color:white;
+  font-size:20px;
+  line-height: 20px;
+  margin-bottom:3%
+}
+.Carousel .Link
+{
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 5px;
+    background: #998675;
+    border:none;
+    box-shadow:0px 2.5px 0px #867566;
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+}
+.Carousel .Link:hover
+{
+    background:#867566;
+    transition:0.5s;
+}
+
+/*End of Carousel*/
+
+
+/*Start of Services Section*/
+
+.Services
+{
+    padding-top:40px;
+    padding-bottom:20px;
+    margin-bottom:10%
+}
+.Services h1 
+{
+    color:#555555;
+    padding:10px;
+    margin-top:10%;
+    margin-bottom:5%;
+    margin-left: 30%;
+    margin-right:30%;
+    border-bottom:2px solid #555555;
+    border-radius:1px; 
+}
+.Services .Content
+{
+    border-bottom:2px solid #e4e1dd;
+    margin:0 5%;
+    cursor: pointer;
+    margin-bottom:15%
+}
+.Services .Content:hover
+{
+    border-bottom:2px solid #c7b299;
+    transition:0.5s;
+}
+
+.Services .Content span
+{
+    font-size:30px;
+    padding:5px;
+    color:#555555;
+    margin-bottom:2%
+}
+.Services .Content:hover span
+{
+    color:#c7b299;
+    transition:0.5s;
+}
+.Services .Content h3
+{
+    color:#555555;
+}
+.Services .Content p
+{
+    font-size:17px;
+    color:#8c8c8c
+}
+
+
+/*End of Services Section*/
+
+/*Start of Features-image Section*/
+.Features-image
+{
+    padding-top:70px;
+    
+}
+.Features-image h2
+{
+    color:#555555;
+    margin-top:10%;
+}
+.Features-image p
+{
+    font-size:17px;
+    color:#8c8c8c;
+    margin-bottom:4%;
+}
+.Features-image .content img
+{
+    height:476px;
+    width:769px;
+}
+
+
+/*End of Features-image Section*/
+
+
+/*Start of Features-bar Section*/
+.Features-bar
+{
+    background:#524539;
+    margin-bottom:10%;
+    padding:20px;
+}
+.Features-bar .content1
+{
+    margin-top:5%
+}
+.Features-bar .content2
+{
+    margin-top:8%;
+    margin-left:69%
+}
+.Features-bar .content1 h2
+{
+    color:white;
+}
+.Features-bar .content1 span
+{
+    color:#b8a493
+}
+.Features-bar .content1 p
+{
+    font-size:17px;
+    color:white;
+}
+.Features-bar .content2 .Button
+{
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 5px;
+    background: #998675;
+    border:none;
+    box-shadow:0px 2.5px 0px #867566;
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+}
+
+.Features-bar .content2 .Button:hover
+{
+    background:#867566;
+    transition:0.5s;
+}
+
+
+/*End of Features-bar Section*/
+
+
+
+/*Start of Last-Projects  Section*/
+
+.Last-Projects
+{
+  padding-top:85px;
+  margin-bottom:10%
+  
+}
+.Last-Projects  h2
+{
+    color:#555555;
+}
+.Last-Projects p
+{
+    font-size:17px;
+    color:#8c8c8c;
+    margin-bottom:4%;
+}
+.Last-Projects .content
+{
+    cursor: pointer;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:10%;
+    
+
+}
+.Last-Projects .content:hover 
+{
+    background:#362f2d;
+    transition:0.9s;  
+}
+.Last-Projects .content:hover h5 
+{
+    color:rgb(255, 255, 255);
+    transition:0.9s;
+}
+.Last-Projects .content:hover p
+{
+    color:#998675;
+}
+
+.Last-Projects .content img
+{
+    height:179px;
+    width:250px;
+    margin-bottom:2%;
+    border-radius:10%;
+   
+}
+.Last-Projects .content h5
+{
+    font-size:20px; 
+    color:#998675
+}
+
+
+
+/*End of Last-Projects  Section*/
+
+
+
+/*start of Pricing Section*/
+
+.Pricing
+{
+    background-image:url(../Images/Photo7.png);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    padding-top:160px;
+    padding-bottom:100px;
+    margin-bottom:10%
+}
+.Pricing .content
+{
+    background:white;
+    border-radius:5%;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin:10%;
+}
+.Pricing .content:hover
+{
+    transform: scale(1.2);
+    transition:0.5s;
+}
+
+.Pricing .content h2
+{
+    color:#555555;
+}
+.Pricing .content h1
+{
+    color:#998675;
+    font-size:45px;
+}
+.Pricing .content h4
+{
+    color:#555555;
+    margin-bottom:20%;
+   
+}
+.Pricing .content p
+{
+    color:#8c8c8c;
+    margin-bottom:4%;
+    margin-left:25%;
+}
+.Pricing .content .Link 
+{
+  margin:10%;
+}
+.Pricing .content .Button
+{
+    background:none;
+    border:none;
+    border-radius:20px;
+    margin:0 10px;
+}
+.Pricing .content .Button a
+{
+    text-decoration: none;
+    color:#998675;
+    padding-right:45px;
+    padding-left:45px;
+    padding-top:12px;
+    padding-bottom:12px;
+    border:2px solid #998675;
+    border-radius:30px;
+}
+.Pricing .content .Button a:hover
+{
+    background:#998675;
+    color:white;
+    transition:0.9s;
+}
+.Pricing .content .span1
+{
+    color:rgb(0, 116, 0);
+    padding:5px;
+}
+.Pricing .content .span2
+{
+    color:rgb(219, 0, 0);
+    padding:5px;
+}
+
+
+/*End of Pricing Section*/
+
+
+
+/*start of Blog Section*/
+
+.Blog
+{
+    padding-top:175px;
+}
+
+
+.Blog h2
+{
+    color:#555555;
+}
+.Blog p
+{
+    font-size:17px;
+    color:#8c8c8c;
+    margin-bottom:5%;
+}
+.Blog h5
+{
+    font-size:17px;
+    color:#8c8c8c;
+}
+.Blog span
+{
+    color:#c7b299;
+    margin-right:2%;
+    margin-left:5%;
+}
+
+
+/*End of Blog Section*/
+
+/*Start of Footer section*/
+.Footer
+{
+    padding:25px;
+    background: rgb(0,0,0,0.8);
+}
+.Footer h3
+{
+    color:white;
+    padding:10px;
+    border-bottom:1px solid white;
+    margin-left:40%;
+    margin-right:40%;
+    margin-bottom:5%
+}
+
+.Footer-content .link
+{
+ padding:10px;
+ margin:20px;
+ background: rgb(0,0,0,0.2);
+ border-radius:20px;
+ font-size:20px;
+ color:white;
+ margin-bottom:5%;
+}
+.Footer-content p
+{
+    margin-top:5%;
+    color:white;
+    font-size:20px;
+}
+
+/*End of Footer section*/
+
+
+
+
+/*start of media query*/
+
+@media (max-width: 702px) 
+{
+    .Carousel h3
+    {
+      padding-top:50%;
+      color:white;
+    }
+    .Features-image .content img
+   {
+    height:276px;
+    width:450px;
+   }
+   .Features-bar .content2 
+   {
+    margin-left:0;
+   }
+   .Last-Projects p
+   {
+    font-size:16px;
+    color:#8c8c8c;
+    margin-bottom:4%;
+   }
+   .Last-Projects .content
+   {
+    cursor: pointer;
+    padding:-20%;
+    margin-left:20%;
+    margin-right:20%
+   }
+   .Pricing .content
+{
+    background:white;
+    border-radius:5%;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin:15%;
+}
+
+}
+
+@media (min-width: 767px) 
+{
+    .Features-image .content img
+    {
+     height:400px;
+     width:600px;
+    }
+    .Features-bar .content2 
+   {
+    margin-left:0;
+   }
+    .Last-Projects .content
+    {
+     cursor: pointer;
+     margin-left:9%;
+     margin-right:9%
+    }
+    .Pricing .content
+    {
+        background:white;
+        border-radius:5%;
+        padding-top:15px;
+        padding-bottom:15px;
+        margin:25%;
+    }
+}
+
+@media (min-width: 992px) 
+{
+    .Last-Projects .content
+    {
+        cursor: pointer;
+        margin-bottom:5%;
+        margin-left:18%;
+        margin-right:5%;
+        padding-top:10px;
+        padding-bottom:10px;
+       border-radius:10%;
+    
+    }
+    .Features-bar .content2 
+   {
+    margin-left:40%;
+   }
+   .Pricing .content
+    {
+        background:white;
+        border-radius:5%;
+        padding-top:15px;
+        padding-bottom:15px;
+        margin:10%;
+    }
+
+}
+
+@media (min-width: 1200px) 
+{
+   
+
+}
+
+
+/*start of media query*/
+
+
+
+
+
+
+
